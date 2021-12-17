@@ -1,0 +1,10 @@
+.nav-link {
+    color:$pynk_dark;
+    font-weight: bold;
+    &:hover{
+        color: lighten($pynk_dark, 30);
+    }
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: $pynk;
+}

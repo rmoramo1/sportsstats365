@@ -1,0 +1,11 @@
+@font-face {
+    font-family: special;
+    src: url('../../fonts/ROBOTECH\ GP.ttf');
+  }
+
+.font_special{
+    font-family: special;
+}
+.text_shadow{
+  text-shadow: 0 03px $black;
+}

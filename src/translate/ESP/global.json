@@ -1,0 +1,23 @@
+{
+    "slider": {
+        "slider1":"Para todos los fans hechos por fans",
+        "slider2":"Datos deportivos reales y actualizados accesibles desde cualquier lugar del mundo",
+        "slider3":"Ya sea para jugar, apostar o simplemente informar, All Fan Sports te cubre las espaldas"
+    },
+    "home":{
+        "span1":"¿Quieres intentar superar las probabilidades?",
+        "span2":"¿Golpear los libros?",
+        "span3":"Con nuestra plataforma, puedes elegir entre las casas de apuestas más conocidas de todo el mundo y controlar cómo se mueve la línea a tu favor",
+        "span4":"Nadie sabe lo que va a pasar cuando ves un partido de la NFL. ¡Y eso lo hace divertido! Proporcionamos cobertura en tiempo real de toda la acción de tu equipo favorito con nuestro feed. Tiene todo lo que cualquier aficionado necesita: resultados y estadísticas actualizadas en intervalos de tiempo cercanos para que los usuarios nunca se pierdan nada importante que ocurra en su pantalla, así como predicciones sobre quién ganará o perderá a continuación, basadas en las actuaciones recientes de ambos equipos (además de las probabilidades).",
+        "span5":"Sports Stats 365 se creó como una herramienta para que los aficionados al deporte puedan y sigan la pista a un mercado en constante cambio. Al recopilar y analizar los datos de las casas de apuestas más influyentes del sector, los usuarios pueden comparar y elegir, de forma mucho más inteligente, la línea que desean batir. Si su objetivo no es apostar, sino entretenerse, nuestra fuente de datos puede alimentar torneos que van desde las plazas de fantasía y de oficina hasta las quinielas de survivor y las quinielas.",
+        "span6":"A la hora de informar, los medios de comunicación pueden elegir entre una amplia gama de información para transmitir. Las estadísticas de los que juegan, las clasificaciones de los equipos, las lesiones y los intercambios El contenido está incluido en nuestro feed.",
+        "span7":"All Fan Sports es la solución única para todas sus necesidades deportivas. En los tiempos que corren, y con un mercado que cambia constantemente, seguir la pista puede ser a veces agotador. Con nosotros como socio, puede seguir y analizar todos los eventos deportivos importantes en todo el mundo. Educarse y adquirir información en tiempo real nunca ha sido tan fácil.",
+        "span8":"ODS, RESULTADOS, PUNTOS Y TIEMPO REAL, ALERTAS"
+    },
+    "tabs":{
+        "span1":"ODDS DE LA NBA",
+        "span2":"RESULTADOS DE LA NBA",
+        "span3":"NFL",
+        "span4":"RESULTADOS DE LA NFL"
+    }
+}

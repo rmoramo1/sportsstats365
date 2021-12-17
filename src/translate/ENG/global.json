@@ -1,0 +1,26 @@
+{
+    "slider": {
+        "slider1":"For all fans made by fans",
+        "slider2":"Real and up to date sports data accessible from anywhere around the globe",
+        "slider3":"Whether it be gaming, gambling or just reporting, All Fan Sports has your back"
+    },
+    "home":{
+        "span1":"Want to try and beat the odds?",
+        "span2":"Bang the books?",
+        "span3":"With our platform, you can choose from the most notorious bookmakers around the world and monitor how the line moves in your favor",
+        "span4":"No one knows what's going to happen when you watch an NFL game. And that makes it fun! We provide real-time coverage of all the action from your favorite team with our feed. It has everything any fan needs - scores and stats updated in near time intervals so users never miss anything important happening on their screen as well as predictions about who will win or lose next based off recent performances by both teams (plus odds)",
+        "span5":"Sports Stats 365 was created as a tool for sporting fans to be able and keep track of an ever-changing market. By compiling and analyzing data from the most influential bookmakers in the industry, users can compare and choose, in a much more intelligent way, the line that they wish to beat. If your goal is not gambling, but entertainment, our data feed can power tournaments that go from fantasy and office squares all the way to survivor pools and quinielas.",
+        "span6":"When it comes to reporting, news outlets can select from a wide array of information to broadcast. Player stats, team standings, injuries and trades are all included in our feed.",
+        "span7":"All Fan Sports is the one stop solution for all your sporting needs. In today’s day and age, and with a market that changes constantly, keeping track can sometimes be exhausting. With us as your partner, you can monitor and analyze all mayor sporting events around the globe. Educating yourself and acquiring real-time information has never been easier!",
+        "span8":"ODS, RESULTS, POINTS AND REAL TIME, ALERTS"
+    },
+    "tabs":{
+        "span1":"NBA ODDS",
+        "span2":"NBA RESULTS",
+        "span3":"NFL",
+        "span4":"NFL RESULTS",
+        "span5":"Line ODDS NBA",
+        "span6":"Results NBA"
+
+    }
+}

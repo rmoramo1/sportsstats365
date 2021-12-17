@@ -1,0 +1,21 @@
+.slider{
+    min-height: 50vh;
+}
+.slider1{
+    background-image: url('../../img/slider/slider1.webp');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.slider2{
+    background-image: url('../../img/slider/slider2.webp');
+}
+.slider3{
+    background-image: url('../../img/slider/slider3.webp');
+}
+.title_slider{
+    font-family: special;
+    color: $white;
+    font-size: 3rem;
+    text-shadow: 0 0 1px $black,1px 1px 3px $black;
+}
