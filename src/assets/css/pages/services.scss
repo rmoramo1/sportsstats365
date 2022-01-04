@@ -1,0 +1,35 @@
+.img_service_up {
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_scores {
+    background-image: url('../../img/scores.webp');
+}
+
+.img_stats {
+    background-image: url('../../img/stats.webp');
+}
+
+.img_calendar {
+    background-image: url('../../img/calendar.webp');
+}
+.img_alarm{
+    background-image: url('../../img/alarms.webp');
+}
+.img_supp{
+    background-image: url('../../img/supement.webp');
+    background-position: top center;
+}
+.img_odds{
+    background-image: url('../../img/odds.webp');
+}
+.m_service_drop {
+    max-height: 150px;
+}
+
+.m_service_exp {
+    height: auto;
+}

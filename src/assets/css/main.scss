@@ -1,0 +1,48 @@
+@import 'colors/colors.scss';
+
+body {
+  margin: 0;
+  color: $blue_grey;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+//a 
+a {
+  color: $light_blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $grey;
+    font-weight: bold;
+  }
+}
+
+//
+.m_50 {
+  min-height: 50vh;
+}
+.m_250{
+  min-height: 250px;
+}
+//bg
+.bg_blue_grey {
+  background: $blue_grey;
+}
+
+.very_dark_grayish_blue {
+  background: $very_dark_grayish_blue;
+}
+
+.bg_light_blue {
+  background: $light_blue;
+}
+
+//shadows
+.shadow_box {
+  box-shadow: 0 0 10px rgba($black, .8);
+}

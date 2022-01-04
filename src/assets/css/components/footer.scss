@@ -1,5 +1,10 @@
 .footer{
-    background: $pynk_dark;
+    background: $blue_grey;
     color: $white;
-    text-align: center;
+    a{
+        color:$white!important;
+        &:hover{
+            color: lighten($light_blue, 30)!important;
+        }
+    }
 }

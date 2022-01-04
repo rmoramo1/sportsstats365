@@ -1,0 +1,9 @@
+.nav-link{
+    color: $light_blue;
+}
+.navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active{
+    color: $blue_grey;
+}
+.nav-link:hover, .nav-link:focus {
+    color:  $blue_grey;
+}

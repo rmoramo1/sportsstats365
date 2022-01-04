@@ -1,0 +1,16 @@
+.span_package{
+    background-image: url('../../img/bg_span_pakage.webp');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.sp_pack_trans{
+    background: rgba($white, .3);
+}
+.package_efect{
+    transition: all .1s linear;
+    min-height: 345px;
+    &:hover{
+        transform: translateY(-15px);
+    }
+}

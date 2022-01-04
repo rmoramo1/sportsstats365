@@ -1,0 +1,13 @@
+.about_us_sp_img,
+.about_sp_dot {
+    background-image: url('../../img/about_sp.webp');
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about_sp_dot {
+    background-image: url('../../img/bg_dot.webp');
+    min-height: 25vh;
+    text-shadow: 0 0 5px $black;
+}

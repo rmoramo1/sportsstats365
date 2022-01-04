@@ -1,0 +1,20 @@
+.bt_blue{
+    background: $light_blue;
+    color: $white;
+    padding: .5rem .8rem;
+    &:hover{
+        color:$white!important;
+        font-weight: 100!important;
+        background: lighten($light_blue, 15);
+    }
+}
+.bt_white{
+    background: $white;
+    color: $light_blue;
+    padding: .5rem .8rem;
+    &:hover{
+        color:$white!important;
+        font-weight: 100!important;
+        background: lighten($light_blue, 15);
+    }
+}
