@@ -27,7 +27,7 @@ export const Home = () => {
 						SportsStas365 is a company that brings together a whole conference of application programming interfaces (APIs) to give you access not only the sports data but also other information such as news stories or weather updates for your website applications.
 					</p>
 					<p>
-						Our sports data feeds are at the heart of everything we do. Every day, we monitor thousands of sporting events and record even more data points which can be transmitted instantly to our clients worldwide through either an API or raw XML format that they choose themselves depending on their needs for a specific project in need! Our basic service offers Livescore services which provide summary stats about matches such as winners, scorers etc., but there's also an Extended Service available if you're after some much deeper statistical analysis.
+					Our sports data feeds are at the heart of everything we do. Every day, we monitor thousands of sporting events and record even more data points which can be transmitted instantly to our clients worldwide through either an API in JSON format on their needs for a specific project in need! Our basic service offers Game Scores services which provide summary stats about matches such as winners, scorers etc., but there's also an Extended Service available if you're after some much deeper statistical analysis.
 					</p>
 				</div>
 			</div>

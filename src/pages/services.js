@@ -139,9 +139,6 @@ export const Services = () => {
                                 </div>
                                 <div className="col p-1">
                                     <p>
-                                        In the calendar section you will be able to visit previous information regarding your favorite sport.
-                                    </p>
-                                    <p>
                                         Check past results, specific game data like team and player stats.
                                     </p>
                                     <p>
@@ -158,10 +155,8 @@ export const Services = () => {
                                 </div>
                                 <div className="col p-1 m_250">
                                     <ul>
-                                        <li>Fantasy</li>
                                         <li>Aggregated Odds</li>
                                         <li>Team / Player Props</li>
-                                        <li>News</li>
                                         <li>Headshots</li>
                                     </ul>
                                 </div>
@@ -185,7 +180,6 @@ export const Services = () => {
                                                     <li>PRE-MATCH AND IN-PLAY</li>
                                                     <li>ALL PROPS AND FUTURES</li>
                                                     <li>HISTORICAL ODDS</li>
-                                                    <li>REAL TIME LINE MOVEMENT</li>
                                                     <li>BETTING TRENDS & INSIGHTS</li>
                                                     <li>GRADING / RESULTING BUILT IN</li>
                                                 </ul>

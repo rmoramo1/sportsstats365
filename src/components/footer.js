@@ -6,7 +6,7 @@ import logo_vacio from "../assets/img/logo_vacio.webp"
 export const Footer = () => {
 
     return (
-        <div className="footer py-5">
+        <div className="footer py-2">
             <div className="row g-0 text-center">
                 <div className="col-12 col-lg-4">
                     <div className="col-12 fs-4">LINKS</div>
@@ -18,7 +18,7 @@ export const Footer = () => {
                             <HashLink to="/faqs">FAQS</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/abou t_us">About Us</HashLink>
+                            <HashLink to="/about_us">About Us</HashLink>
                         </li>
                         <li>
                             <HashLink to="/services">Services</HashLink>
@@ -29,10 +29,9 @@ export const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center">
-                    COPYRIGHT SPORTS STATS 2021
-                </div>
-                <div className="col-12 col-lg-4 p-2">
                     <img src={logo_vacio} alt="logo of the site" className="img-fluid"></img>
+                </div>
+                <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center">
                     <div className="row g-0 fs-2 pt-3">
                         <div className="col-6 text-end pe-2">
                             <HashLink to="/">
@@ -47,6 +46,9 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className="col-12 d-flex justify-content-center align-items-center">
+                    COPYRIGHT SPORTS STATS 2022
+                </div>
         </div>
     )
 

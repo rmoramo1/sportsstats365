@@ -111,10 +111,8 @@ export const FAQS = () => {
                                         3.	Supplemental Feeds:
                                     </p>
                                     <ul>
-                                        <li>Fantasy</li>
                                         <li>Aggregated Odds</li>
                                         <li>Team / Player Props</li>
-                                        <li>News</li>
                                         <li>Headshots</li>
                                     </ul>
 
