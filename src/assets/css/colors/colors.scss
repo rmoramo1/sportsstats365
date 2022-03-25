@@ -5,8 +5,9 @@ $blue_grey:#5f708a;
 $light_blue:#3a689a;
 $grey:#919eb1;
 $very_dark_grayish_blue:#4f5b71;
-
-
+$pink:#ff0f50;
+$celeste:#00aae4;
 
 /*gradiants*/
 $BGB:linear-gradient(to bottom, #000000 0%,#414141 50%,#000000 100%);
+$linear_bg_blue:linear-gradient(to bottom, $light_blue 0%,$grey 50%,$very_dark_grayish_blue 100%);

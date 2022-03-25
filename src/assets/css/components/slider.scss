@@ -7,7 +7,8 @@
 .slider3,
 .slider_about_us,
 .slider_faqs,
-.slider_services {
+.slider_services,
+.slider_packages {
     background-image: url('../../img/slider/slider1.webp');
     background-size: cover;
     background-position: top left;
@@ -41,6 +42,11 @@
     background-image: url('../../img/slide_pages/services.webp');
 }
 
+.slider_packages {
+    background-image: url('../../img/slide_pages/packages.webp');
+    text-shadow: -1px -1px 0px #000,1px 1px 0px #000,-1px -1px 3px #000,1px 1px 3px #000,;
+}
+
 @media only screen and (max-width: 600px) {
 
     .slider1 {
@@ -65,5 +71,9 @@
 
     .slider_services {
         background-image: url('../../img/slide_pages/services_movil.webp');
+    }
+
+    .slider_packages {
+        background-image: url('../../img/slide_pages/packages_movil.webp');
     }
 }

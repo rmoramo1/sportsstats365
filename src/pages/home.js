@@ -1,57 +1,59 @@
-import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+import React, { useEffect, lazy } from "react";
 import { Helmet } from "react-helmet";
-import React, { useState, useEffect, useContext } from "react";
-import { Context } from "../store/appContext";
 import AOS from "aos";
 import "../../node_modules/aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 /*componentes*/
 import { Slider } from "../components/slider";
-import { Package } from "../components/package";
 import { Call_to_action } from "../components/call_to_action";
+const Package = lazy(() => import('../components/package'));
 /* img */
 
-export const Home = () => {
-	const { store, actions } = useContext(Context);
+function Home() {
 	const { t, i18n } = useTranslation("global");
 	useEffect(() => {
 		AOS.init({ duration: 1500 });
+		AOS.refresh();
 	}, []);
 	return (
-		<div className="container-fluid p-0">
+		<div className="container-fluid p-0" id="home">
+			<Helmet>
+				<title>SPORTS STATS 365-API SPORTS</title>
+				<link rel="canonical" href="https://sportsstats365.com/" />
+				<meta name="description" content="We have the perfect sports stats for your website, Our powerful sports API includes the 4 major US sports, NFL, NBA, MLB and NHL.Check out our packages!"></meta>
+			</Helmet>
 			<Slider />
 			<div className="container-fluid p-0 py-5 m-0 bg_blue_grey">
-				<div className="container text-white">
+				<div className="container text-white" data-aos="fade-up">
 					<p>
-						SportsStas365 is a company that brings together a whole conference of application programming interfaces (APIs) to give you access not only the sports data but also other information such as news stories or weather updates for your website applications.
+						{t('home.span1')}
 					</p>
 					<p>
-					Our sports data feeds are at the heart of everything we do. Every day, we monitor thousands of sporting events and record even more data points which can be transmitted instantly to our clients worldwide through either an API in JSON format on their needs for a specific project in need! Our basic service offers Game Scores services which provide summary stats about matches such as winners, scorers etc., but there's also an Extended Service available if you're after some much deeper statistical analysis.
+						{t('home.span2')}
 					</p>
 				</div>
 			</div>
-			<div className="container py-5">
+			<div className="container py-5" data-aos="flip-left">
 				<div className="col text-center">
-					<h1 className="font_special">API Packages and Pricing</h1>
+					<h1 className="font_special">{t('home.span3')}</h1>
 				</div>
 				<div className="col">
 					<p>
-					We know that everyone has unique needs. To address those individual requests, we have created data packages tailored for specific purposes and at varying levels of detail to best suit each customer's requirements--from daily updates on player performance in Major League Baseball games all the way up through year-round access with comprehensive stats about every athlete competing professionally across multiple sport disciplines!
-
+						{t('home.span4')}
 					</p>
 					<p>
-					No one knows what's going to happen when you watch any sporting event. And that makes it fun! We provide real-time coverage of all the action from your favorite team with our feed. It has everything any fan needs - scores and stats updated in near time intervals so users never miss anything important happening on their screen as well as predictions about who will win or lose next based off recent performances by both teams (plus odds).
+						{t('home.span6')}
 					</p>
 				</div>
 			</div>
-			<Package/>
-			<Call_to_action/>
+			<Package />
+			<Call_to_action />
 			<div className="container py-5">
 				<p className="fs-3">
-				Use the market to your favor! If you want to be successful at sports betting, you must take advantage of the market. Track lines from the opening values all the way to its closing number.
+					{t('home.span6')}
 				</p>
 			</div>
 		</div>
 	);
 };
+export default Home;

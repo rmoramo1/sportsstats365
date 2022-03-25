@@ -22,16 +22,19 @@ export const Header = () => {
                             <div className="collapse navbar-collapse" id="navbarNav">
                                 <ul className="navbar-nav mx-auto">
                                     <li className="nav-item">
-                                        <HashLink className="nav-link" aria-current="page" to="/about_us">About Us</HashLink>
+                                        <HashLink className="nav-link" aria-current="page" to="/about_us">{t('menu.about')}</HashLink>
+                                    </li>
+                                    <li className="nav-item">
+                                        <HashLink className="nav-link" aria-current="page" to="/packages_page">{t('menu.packages')}</HashLink>
                                     </li>
                                     <li className="nav-item">
                                         <HashLink className="nav-link" to="/faqs">FAQS</HashLink>
                                     </li>
                                     <li className="nav-item">
-                                        <HashLink className="nav-link" to="/services">Services</HashLink>
+                                        <HashLink className="nav-link" to="/services">{t('menu.services')}</HashLink>
                                     </li>
                                     <li className="nav-item">
-                                        <HashLink className="nav-link" to="/contact">Contact</HashLink>
+                                        <HashLink className="nav-link" to="/contact">{t('menu.contact')}</HashLink>
                                     </li>
                                 </ul>
                             </div>
@@ -39,19 +42,21 @@ export const Header = () => {
                     </nav>
                 </div>
                 <div className="col-12 col-lg-3 d-flex align-items-center justify-content-center">
-                    <HashLink className="pe-3 fw-bold" onClick={() => i18n.changeLanguage("en")}>
-                        ENG
-                    </HashLink>|
-                    <HashLink className="px-3 fw-bold" onClick={() => i18n.changeLanguage("es")}>
-                        ESP
-                    </HashLink>
-                    <HashLink className="pe-3 fw-bold" to="#">
-                        <i className="fab fa-facebook"></i>
-                    </HashLink>
+                    <div className="col-12">
+                        <button className="btn pe-3 fw-bold" onClick={() => i18n.changeLanguage("en")}>
+                            ENG
+                        </button>|
+                        <button className="btn px-3 fw-bold" onClick={() => i18n.changeLanguage("es")}>
+                            ESP
+                        </button>
+                        <HashLink className="pe-3 fw-bold" to="#">
+                            <i className="fab fa-facebook"></i>
+                        </HashLink>
 
-                    <HashLink className="pe-3 fw-bold" to="#">
-                    <i className="fab fa-twitter"></i>
-                    </HashLink>
+                        <HashLink className="pe-3 fw-bold" to="#">
+                            <i className="fab fa-twitter"></i>
+                        </HashLink>
+                    </div>
                 </div>
             </div>
         </div>

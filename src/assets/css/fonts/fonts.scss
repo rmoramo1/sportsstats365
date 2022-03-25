@@ -4,10 +4,16 @@
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
 .font_special{
     font-family: special;
 }
+.font_title{
+  font-family: 'Open Sans', sans-serif;
+}
 .text_shadow{
-  text-shadow: 0 03px $black;
+  text-shadow: 0 0 3px $black;
+}
+.font_pink{
+  color: $pink;
 }

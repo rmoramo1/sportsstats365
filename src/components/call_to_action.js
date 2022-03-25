@@ -1,25 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
-import img_deports from "../assets/img/sports_illstration.webp"
+import AOS from "aos";
+import { useTranslation } from "react-i18next";
+import img_deports from "../assets/img/sports_illstration.webp";
 
 export const Call_to_action = () => {
+    const { t } = useTranslation("global");
+    useEffect(() => {
+		AOS.init({ duration: 1500 });
+		AOS.refresh();
+	}, []);
     return (
         <div className="container-fluid bg_light_blue py-5">
             <div className="row g-0">
-                <div className="col-12 col-lg-6 py-lg-5">
+                <div className="col-12 col-lg-6 py-lg-5" data-aos="zoom-in-right">
                     <img src={img_deports} alt="image of sports" className="img-fluid" />
                 </div>
-                <div className="col-12 col-lg-6 text-white d-flex align-items-center px-1 px-lg-5">
+                <div className="col-12 col-lg-6 text-white d-flex align-items-center px-1 px-lg-5" data-aos="zoom-out-up">
                     <div>
                         <p>
-                            Not only player stats and tracking scores, with the SportsStats API you can even track odds movements!
-                            Monitor the lines since the market opens all the way to the event’s closing line.
+                        {t('call_action.span1')}
                         </p>
                         <p>
-                            With our platform, you can monitor how the line moves in your favor and choose the best time to place a wager.
+                        {t('call_action.span2')}
                         </p>
                         <div className="col text-center">
-                            <HashLink to="/contact" className="bt_white">Contact Us for more Information</HashLink>
+                            <HashLink to="/contact" className="bt_white">{t('butons.information')}</HashLink>
                         </div>
                     </div>
                 </div>

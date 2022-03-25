@@ -18,3 +18,14 @@
         background: lighten($light_blue, 15);
     }
 }
+.bt_pink{
+    background: $pink;
+    color: $white;
+    padding: .5rem .8rem;
+    border-radius: 50px;
+    &:hover{
+        color:$white!important;
+        font-weight: 100!important;
+        background: darken($pink, 15);
+    }
+}
